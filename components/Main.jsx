@@ -1,12 +1,11 @@
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 function Main() {
   return (
-    <div id='home' className='w-full h-screen text-center'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+    <div id='home' className='w-full h-screen text-center pt-12'>
+      <div className='max-w-[1240px] w-full h-full mx-auto flex justify-center items-center'>
             <div>
                 <p className='uppercase text-sm tracking-widest text-gray-700 build-together'>LET&apos;S BUILD SOMETHING TOGRTHER</p>
                 <h1>Hi, I&apos;m <span className='text-[#ca51e5]'>MARIA</span></h1>
@@ -18,16 +17,24 @@ function Main() {
                 but I&apos;m always adding new skills to my repertoire.</p>
             <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <a href='https://www.linkedin.com/in/maria-theresa-azzi/'>
                     <FaLinkedin/>
+                    </a>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <a href='https://github.com/MariaTheresaAzzi'>
                     <FaGithub/>
+                    </a>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <a href='https://mail.google.com/mail/u/1/?view=cm&fs=1&to=mariatheresaelkazzi@gmail.com&tf=1'>
                     <AiOutlineMail/>
+                    </a>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <BsFillPersonLinesFill/>
+                <a href='https://twitter.com/theresa_azzi'>
+                    <FaTwitter/>
+                    </a>
                 </div>
             </div>
             </div>

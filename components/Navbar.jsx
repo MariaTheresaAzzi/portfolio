@@ -2,8 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, {useEffect, useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
-import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {FaLinkedin, FaGithub, FaTwitter} from 'react-icons/fa'
 import {useRouter} from 'next/router'
 import logo from '../public/Mydiz-Logo -1.png'
 
@@ -77,7 +76,7 @@ const Navbar = () => {
                 <div>
                     <div className='flex w-full items-center justify-between'>
                         <Link href='/'>
-                        <Image src='/../public/Mydiz-Logo.png' width='75' height='35' alt='/'/>
+                        <Image src={logo} width='75' height='35' alt='/'/>
                         </Link>
                         <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                             <AiOutlineClose />
@@ -109,16 +108,24 @@ const Navbar = () => {
                         <p className='uppercase tracking-widest text-[#5651e5]'>Let&apos;s Connect</p>
                     <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <FaLinkedinIn />
+                        <a href='https://www.linkedin.com/in/maria-theresa-azzi/'>
+                    <FaLinkedin/>
+                    </a>
                         </div>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <FaGithub />
+                        <a href='https://github.com/MariaTheresaAzzi'>
+                    <FaGithub/>
+                    </a>
                         </div>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <AiOutlineMail />
+                        <a href='https://mail.google.com/mail/u/1/?view=cm&fs=1&to=mariatheresaelkazzi@gmail.com&tf=1'>
+                    <AiOutlineMail/>
+                    </a>
                         </div>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
+                        <a href='https://twitter.com/theresa_azzi'>
+                    <FaTwitter/>
+                    </a>
                         </div>
                     </div>
                     </div>
