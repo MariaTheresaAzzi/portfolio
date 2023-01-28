@@ -9,7 +9,7 @@ function Main() {
             <div>
                 <p className='uppercase text-sm tracking-widest text-gray-700 build-together'>LET&apos;S BUILD SOMETHING TOGRTHER</p>
                 <h1>Hi, I&apos;m <span className='text-[#ca51e5]'>MARIA</span></h1>
-                <h1 className='py-2 text-gray-700'>A Front-End Developer</h1>
+                <h1 className='py-2 p-2 text-gray-700'>A Front-End Developer</h1>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>I&apos;ve always been a great problem solver, an independent introvert, 
                 and a technophile obsessed with the latest devices. Today, I&apos;m a Frontend developer, I specialize in building responsive websites. 
                 I&apos;ve worked on various projects at University and during my bootcamp with Recoded.

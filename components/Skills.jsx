@@ -9,6 +9,8 @@ import img6 from '../public/assests/skills/React.png'
 import img7 from '../public/assests/skills/vue1png.png'
 import img8 from '../public/assests/skills/next-js.png'
 import img9 from '../public/assests/skills/TYPE.jpg'
+import img10 from '../public/assests/skills/shopify.png'
+import img11 from '../public/assests/skills/figma.png'
 
 
 
@@ -124,7 +126,7 @@ function Skills() {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                    <Image src='/../public/assests/skills/shopify.png' width="70" height="50" alt='shopify'/>
+                    <Image src={img10} width="70" height="50" alt='shopify'/>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
                     <h3>SHOPIFY</h3>
@@ -135,7 +137,7 @@ function Skills() {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
-                    <Image src='/../public/assests/skills/figma.png' width="70" height="50" alt='figma'/>
+                    <Image src={img11} width="70" height="50" alt='figma'/>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
                     <h3>FIGMA</h3>
