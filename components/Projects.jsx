@@ -10,7 +10,7 @@ function Projects() {
     <div id='projects' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-6 py-10'>
             <p className='text-xl tracking-widest uppercase text-[#ca51e5]'>Projects</p>
-            <h2 className='py-4'>What I've built</h2>
+            <h2 className='py-4'>What I&apos;ve built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
             <ProjectItem
             title='Band Website'

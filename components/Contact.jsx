@@ -18,12 +18,12 @@ function Contact() {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src='/../public/img1.jpg' width="400" height="255"/>
+                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src='/../public/img1.jpg' width="400" height="255" alt='mariaimg'/>
                         </div>
                         <div>
                             <h2 className='py-2'>Name here</h2>
                             <p>Front-End Developer</p>
-                            <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's talk.</p>
+                            <p className='py-4'>I am available for freelance or full-time positions. Contact me and let&apos;s talk.</p>
 
                         </div>
                         <div>
