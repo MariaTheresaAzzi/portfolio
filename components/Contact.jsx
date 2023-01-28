@@ -5,6 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import Link from 'next/link'
+import img from '../public/img1.jpg'
 
 function Contact() {
   return (
@@ -18,7 +19,7 @@ function Contact() {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src='/../public/img1.jpg' width="400" height="255" alt='mariaimg'/>
+                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={img} width="400" height="255" alt='mariaimg'/>
                         </div>
                         <div>
                             <h2 className='py-2'>Name here</h2>
