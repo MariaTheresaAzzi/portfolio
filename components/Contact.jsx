@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { AiOutlineMail } from 'react-icons/ai'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import Link from 'next/link'
 import img from '../public/img1.jpg'
@@ -32,16 +31,24 @@ function Contact() {
                             <div className='flex items-center justify-between py-4'>
 
                             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <a href='https://www.linkedin.com/in/maria-theresa-azzi/'>
                     <FaLinkedin/>
+                    </a>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <a href='https://github.com/MariaTheresaAzzi'>
                     <FaGithub/>
+                    </a>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <a href='https://mail.google.com/mail/u/1/?view=cm&fs=1&to=mariatheresaelkazzi@gmail.com&tf=1'>
                     <AiOutlineMail/>
+                    </a>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <BsFillPersonLinesFill/>
+                <a href='https://twitter.com/theresa_azzi'>
+                    <FaTwitter/>
+                    </a>
                 </div>
 
                             </div>
